@@ -1,31 +1,43 @@
-## B1 Linux - TP2
-### I. Exploration locale en solo
-#### 1. Affichage d'informations sur la pile TCP/IP locale
-__En ligne de commande__
-_a) Affichez les infos des cartes réseau de votre PC_
+# 🐧 B1 Linux - TP2
+
+## I. Exploration locale en solo
+
+### 1. Affichage d'informations sur la pile TCP/IP locale
+
+#### 📟 En ligne de commande
+
+##### a) Affichage des informations des cartes réseau
+
+Avec la commande : `ipconfig /all`
 
 ![tp2_1](../all_TP_pictures/tp2_1.png)
- Avec la commande : ipconfig /all
- 
 
+**Récapitulatif des interfaces :**
 
+| Interface | Adresse MAC | Adresse IP |
+|-----------|-------------|------------|
+| WiFi | B4-B5-B6-77-3D-AD | 10.33.69.86 |
+| Ethernet | 70-8B-CD-A2-3A-C5 | / |
 
-| Interface | A-MAC | IP |
-| -------- | -------- | -------- |
-| Wifi     | B4-B5-B6-77-3D-AD     | 10.33.69.86     |
-| Ethernet     | 70-8B-CD-A2-3A-C5     | /     |
+##### b) Affichage de la gateway
 
+Commande utilisée : `ipconfig | findstr /i "passerelle Wi-Fi"`
 
-_b) Affichez votre gateway_
-Voici une commande qui m'affiche directement la passerelle : ipconfig | findstr /i "passerelle Wi-Fi"
-ce qui donne : 10.33.79.254
+**Résultat :** `10.33.79.254`
 
-__En graphique (GUI : Graphical User Interface)__
-Je vais dans les parametres -> réseau et internet -> Wifi
+#### 🖥️ En graphique (GUI)
+
+Pour accéder aux informations réseau : Paramètres → Réseau et Internet → WiFi
+
 ![tp2_2](../all_TP_pictures/tp2_2.png)
 
-- à quoi sert la gateway dans le réseau d'Ingésup ?
-        - le gateway va avoir plusieur role différent il est une sorte de pont vers internet (la porte de sortie) il permet aussi de faire un routage entre réseaux, de sécurisé et filtré des contenus site web ect et surtout de centralisé tout l'acces internet et donc de le gestionner
+**💡 Quel est le rôle de la gateway dans le réseau d'Ingésup ?**
+
+La gateway (passerelle) joue plusieurs rôles essentiels :
+- **Pont vers Internet** : c'est la porte de sortie du réseau local
+- **Routage inter-réseaux** : permet la communication entre différents réseaux
+- **Sécurité et filtrage** : contrôle et filtre les contenus et sites web
+- **Centralisation** : point central pour la gestion de l'accès Internet
 
 #### 2. Modifications des informations
 _a) Modification d'adresse IP - pt. 1_
