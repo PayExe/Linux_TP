@@ -31,8 +31,6 @@ Netcat permet de discuter entre deux PCs comme un chat très simple. Un PC écou
 ![Netcat 2](../all_TP_pictures/tp2.2_6.png)
 ![Netcat 3](../all_TP_pictures/tp2.2_7.png)
 
-screen tp2.2_8
-screen tp2.2_11
 ### 7. Wireshark
 Wireshark sert à voir ce qui se passe sur le réseau, comme observer les messages qui circulent entre les deux PCs.
 
