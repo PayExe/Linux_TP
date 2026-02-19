@@ -239,9 +239,7 @@ sudo ufw status
 ls -ld /var/www/site-tp
 ls -l /var/www/site-tp
 ```
-Tout est good les ports sont ouvert
-
-Tout est validé si tu arrives à faire chaque test sans erreur !
+Tout est good :)
 
 
 
