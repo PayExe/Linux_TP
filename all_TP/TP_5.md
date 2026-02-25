@@ -1,18 +1,5 @@
 # TP5 : pfSense – Bases d’un pare-feu
 
-Ce TP est moins facile que les précédents, n'hésitez pas à m'appeler en cas de blocage.
-
-## Objectifs
-- Mise en place d'un lab avec plusieurs VMs
-- Installation et configuration d'un pfSense
-- Donner accès à Internet à une VM Ubuntu via pfSense
-- Sécuriser l’administration du pare-feu
-- Comprendre la logique des règles
-- Manipuler NAT, DHCP et DNS
-- Mettre en place un filtrage ciblé
-
----
-
 ## Partie 1 – Prise en main et sécurisation
 
 ### 1. Accès à l’interface
