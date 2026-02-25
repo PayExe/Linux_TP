@@ -2,7 +2,6 @@ TP5: pfSense
 
 Partie 1 – Prise en main et sécurisation
 
-1. Acces à l'interface
 1. Accès à l'interface
 
 Questions :
