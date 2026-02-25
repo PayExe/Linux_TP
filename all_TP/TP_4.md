@@ -240,6 +240,3 @@ ls -ld /var/www/site-tp
 ls -l /var/www/site-tp
 ```
 Tout est good :)
-
-
-
