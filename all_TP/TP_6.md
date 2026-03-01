@@ -84,7 +84,7 @@ sign-req signe cette demande avec la CA pour produire un certificat valide.
 
 Que se passe-t-il si vous oubliez de signer un certificat ? -> Le certificat ne sera pas valide. Le serveur ou le client VPN ne pourra pas s’authentifier et la connexion échouera.
 
-Partie 2 : Configuration du serveur OpenVPN
+### Partie 2 : Configuration du serveur OpenVPN
 
 Donc on créer un fichier de config :
 Pour ça on créer le fichier du serveur :
@@ -150,7 +150,7 @@ Peut provoquer une double encapsulation TCP (moins performant)
 
 - Quelle plage IP choisir pour le VPN ? Pourquoi ? >> "10.8.0.0 /24" - car c'est une adresse privée et indé du réseau local
 
-Suite du partie 2 :
+### Suite du partie 2 :
 
 On doit activer le forwarding et mettre le nat
 suite à ça on active le forwading IP :
@@ -193,7 +193,7 @@ Si le service échoue :
 - Les chemins vers les certificats sont-ils corrects ? ils sont à /etc/openvpn/server/
 
 
-Partie 3 : Création du profil client
+### Partie 3 : Création du profil client
 
 Donc on créer .ovpn
 donc nano client1.ovpn
